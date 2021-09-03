@@ -1,6 +1,6 @@
 
 /* This is from - coolors.co 
-https://coolors.co/011627-f71735-41ead4-fdfffc-ff9f1c
+https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
 */
 
 
@@ -8,8 +8,8 @@ https://coolors.co/011627-f71735-41ead4-fdfffc-ff9f1c
 body
 {
 	font-family: tahoma;
-	color: #FDFFFC ;
-	background-color: #41EAD4;
+	color: #9FFCDF ;
+	background-color: #447604;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -18,13 +18,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: F71735;
+	color: 6CC551;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: F71735;
+	color: 52AD9C;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }
