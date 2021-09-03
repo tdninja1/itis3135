@@ -1,0 +1,62 @@
+
+/* This is from - coolors.co - please improve!
+https://coolors.co/011627-f71735-41ead4-fdfffc-ff9f1c
+*/
+
+
+
+body
+{
+	font-family: tahoma;
+	color: #FDFFFC ;
+	background-color: #41EAD4;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+
+header, footer
+{
+	text-align: center;
+	color: F71735;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: F71735;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #f71735;
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
