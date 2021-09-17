@@ -1,0 +1,106 @@
+
+/* This is from - coolors.co 
+https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
+*/
+
+body
+{
+	font-family: tahoma;
+	background-color: white;
+	font-family: comic sans;
+	margin: 8px;
+	filter: contrast(8%);
+	border-width: thick;
+}
+
+
+header, footer
+{
+	text-align: center;
+	font-weight: bold;
+	font-family: papyrus;
+	background-color: white;
+	margin: 2px;
+	filter: contrast(10%);
+	text-decoration: overline;
+}
+
+h1
+{
+	font-family: times;
+	text-align: center;
+	background-color: white;
+	margin: 995px;
+	text-decoration: overline underline;
+	filter: contrast(20%);
+}
+
+h2
+{
+	font-family:black;
+	background-color: white;
+	margin: 115px;
+	text-decoration: underline;
+	filter: contrast(20%);
+}
+
+nav 
+{
+	font-family: comic papyrus, black;
+	background-color: white;
+	margin: 15px;
+	filter: contrast(20%);
+}
+
+a
+{
+	text-decoration: none;
+	color: #f71735;
+	background-color: white;
+	margin: 24px;
+	filter: contrast(2%);
+}
+
+a:hover
+{
+	filter: contrast(200%);
+}
+
+figure
+{
+	text-align: center;
+	filter: contrast(27%)
+	text-decoration: underline;
+}
+
+ul
+{
+	text-align: center;
+	margin: 95px;
+	filter: contrast(80%);
+}
+
+p
+{
+	text-align: center;
+	background-color: cyan;
+	margin: 35px;
+	filter: contrast(85%);
+	text-decoration: underline;
+	border-width: thick;
+	border-top-color: cyan;
+	border-left-color: purple;
+	border-right-color: red;
+	border-bottom-color: orange;
+	border-top: outset, overline;
+	border-bottom: underline;
+	border-left: overline;
+	border-right: outset, underline, overline;
+}
+
+
+figcaption
+{
+	font-style: italic;
+	filter: contrast(20%);
+}
