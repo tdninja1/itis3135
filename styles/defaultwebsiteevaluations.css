@@ -9,6 +9,11 @@ https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
 	display: grid;
 }
 
+.calculator_keys
+{
+	display: grid;
+}
+
 body
 {
 	font-family: tahoma;

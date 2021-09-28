@@ -7,7 +7,7 @@
 		<link href="/Users/thede/OneDrive - University of North Carolina at Charlotte/Documents/itis3135_work/private_html/itis3135/styles/default.css" rel="stylesheet" type="text/css">
 		-->
 		<link href="styles/defaultwebsiteevaluations.css" rel="stylesheet" type="text/css" >
-		<title>Jacob Mack, ITIS 3135-051, Calculator Try</title>
+		<title>Jacob Mack, ITIS 3135-051, Calculator FCC</title>
 	<head>
 	<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
 	<header>
@@ -19,8 +19,8 @@
 		<a href="https://https://dvonbri1.github.io/itis3135/contract.html">Contract</a>
 	</nav>
 	<main>
-	<script type="text/javascript" src="scripts/calculator_try.js"></script>
-		<h2>Calculator Try</h2>
+	<script type="text/javascript" src="scripts/calculator_fcc.js"></script>
+		<h2>Calculator FCC</h2>
 		
 		<!-- Need:
 				1.) buttons for numbers and operators
@@ -30,29 +30,29 @@
 				5.) add css to buttons
 		-->
 		<div class="calculator">
-			<div class="calculator_buttons"> . </div>
 			<div class="calculator_display"> 0 </div> <!-- set display value to 0 to begin since nothing is computed yet -->
+			<div class="calculator_keys"> ... </div>
 		</div>
 		
 		<!-- create buttons needed (0-9), "." in case doubles are computed, way to remove operations (CLEAR BUTTON), way to add everything up (equal button) + operators within them (+,-,/,*,) -->
-		<div class="calculator_buttons">
-			<button>0</button>
-			<button>1</button>
-			<button>2</button>
-			<button>3</button>
-			<button>4</button>
-			<button>5</button>
-			<button>6</button>
+		<div class="calculator_keys">
+			<button class="key--operator" data-action="add">+</button>
+			<button class="key--operator" data-action="subtract">-</button>
+			<button class="key--operator" data-action="multiply">&times;</button>
+			<button class="key--operator" data-action="divide">/</button>
 			<button>7</button>
 			<button>8</button>
 			<button>9</button>
-			<button data-action="add" class="operator">+</button>
-			<button data-action="subtract" class="operator">-</button>
-			<button data-action="multiply" class="operator">*</button>
-			<button data-action="divide" class="operator">/</button>
+			<button>4</button>
+			<button>5</button>
+			<button>6</button>
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button>0</button>
 			<button data-action="decimal">.</button>
-			<button data-action="clear" class="operator">clear</button>
-			<button class="operator" data-action="calculate">=</button>
+			<button data-action="clear" >clear</button>
+			<button class="key--equal" data-action="calculate">=</button>
 		</div>
 		
 		
@@ -116,7 +116,7 @@
 			 
 		</nav>
 		<p><strong>Page built by Jacob Mack</strong></p>
-		<a href="https://validator.w3.org/check?uri=referer">
+		<a href="https://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri' + document.URL">
 			<img src="https://dvonbri1.github.io/itis3135/images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
 		</a>	
 		<a href="https://jigsaw.w3.org/css-validator/check/referer">
