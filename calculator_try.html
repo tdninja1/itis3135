@@ -7,7 +7,7 @@
 		<link href="/Users/thede/OneDrive - University of North Carolina at Charlotte/Documents/itis3135_work/private_html/itis3135/styles/default.css" rel="stylesheet" type="text/css">
 		-->
 		<link href="styles/defaultwebsiteevaluations.css" rel="stylesheet" type="text/css" >
-		<title>Jacob Mack, ITIS 3135-051, First Scripts Webpage</title>
+		<title>Jacob Mack, ITIS 3135-051, Calculator Try</title>
 	<head>
 	<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
 	<header>
@@ -20,8 +20,46 @@
 	</nav>
 	<main>
 	<script type="text/javascript" src="scripts/calculator_try.js"></script>
-		<h2>First Scripts</h2>
+		<h2>Calculator Try</h2>
 		
+		<!-- Need:
+				1.) buttons for numbers and operators
+				2.) display the numbers
+				3.) launch alerts with buttons
+				4.) link to script calculator_try.js
+				5.) add css to buttons
+		-->
+		<div class="calculator">
+			<div class="calculator_buttons"> . </div>
+			<div class="calculator_display"> 0 </div> <!-- set display value to 0 to begin since nothing is computed yet -->
+		</div>
+		
+		<!-- create buttons needed (0-9), "." in case doubles are computed, way to remove operations (CLEAR BUTTON), way to add everything up (equal button) + operators within them (+,-,/,*,) -->
+		<div class="calculator_buttons">
+			<button>0</button>
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button>4</button>
+			<button>5</button>
+			<button>6</button>
+			<button>7</button>
+			<button>8</button>
+			<button>9</button>
+			<button data-action="add" class="operator">+</button>
+			<button data-action="subtract" class="operator">-</button>
+			<button data-action="multiply" class="operator">*</button>
+			<button data-action="divide" class="operator">/</button>
+			<button data-action="decimal">.</button>
+			<button data-action="clear" class="operator">clear</button>
+			<button class="operator" data-action="calculate">=</button>
+		</div>
+		
+		
+		
+		
+		
+		<!--
 		<p>These are a few functions I created with the help of Murach's Chapter 02 slides. Please click any of the buttons below to start trying the functions out.</p>
 		<p id="greetAndTime"></p>
 		<button onclick="userGreetAndTime()">User Greeting & Time & Year</button>
@@ -37,6 +75,7 @@
 		
 		<p id="madLib"></p>
 		<button onclick="madLib()">Generate MadLib Story</button>
+		-->
 		
 		
 	</main>

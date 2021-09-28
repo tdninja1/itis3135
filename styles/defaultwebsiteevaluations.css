@@ -3,6 +3,12 @@
 https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
 */
 
+.calculator_buttons
+{
+	/* need grid for button layout */
+	display: grid;
+}
+
 body
 {
 	font-family: tahoma;
@@ -37,11 +43,13 @@ table {
 	width: 100%;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even) 
+{
 	background-color: gray;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(odd) 
+{
 	background-color: black;
 	
 }
