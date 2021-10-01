@@ -3,16 +3,68 @@
 https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
 */
 
-.calculator_buttons
+section
 {
-	/* need grid for button layout */
-	display: grid;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
-.calculator_keys
+.holdCalculator
 {
-	display: grid;
+    max-height: 1200px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh auto 0 auto;
+    margin-bottom: 10vh auto 0 auto;
+    border-style:double;
 }
+ 
+#calculator_display
+{
+    text-align: right;
+    font-size: 35px;
+    padding: 24px 16px;
+    height: 45px;
+    line-height: 45px;
+    border-style: double;
+}
+
+.calculator_buttons
+{
+    display: grid;
+    border-left: 1px solid rgb(234, 193, 253);
+    border-bottom: 1px solid rgb(234, 193, 253);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-style: double;
+}
+
+.button
+{
+    border: 1px solid rgb(234, 193, 253);
+    line-height: 80px;
+    font-family:fantasy;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-style:double;
+}
+
+#equal
+{
+    color: rgb(234, 193, 253);
+    background-color: rgb(9, 102, 145);
+    font-stretch: wider;
+}
+
+.button:hover
+{
+    background-color: #241058;
+    color: rgb(234, 193, 253);
+    transition: 0.25s  ease-in-out;
+}
+
+
 
 body
 {
@@ -43,7 +95,8 @@ h3, h4
 	line-height: 0px;
 }
 
-table {
+table 
+{
 	border-collapse: collapse;
 	width: 100%;
 }
