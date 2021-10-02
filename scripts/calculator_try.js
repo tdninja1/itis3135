@@ -20,7 +20,7 @@ calcButtons.map( button =>
                     calcdisplay.innerText = eval(calcdisplay.innerText);
                 } catch 
 				{
-                    calcdisplay.innerText = "Invalid Input!"
+                    
 					alert("Click the CLEAR button to continue.");
                 }
                 break;
