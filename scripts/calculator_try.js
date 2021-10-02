@@ -1,5 +1,5 @@
 //display simply equals calculator_display since it needs text to be displayed through innerText provided function
-let calcdisplay = document.getElementById('calculator_display');
+let calcDisplay = document.getElementById('calculator_display');
 //calcButtons is an array that holds the data for the calculator_buttons described in calculator
 let calcButtons = Array.from(document.getElementsByClassName('calculator_buttons'));
 
@@ -17,22 +17,25 @@ calcButtons.map( button =>
 				//try catch to catch any potential invalid inputs from user
                 try 
 				{	//evaluate the equation if valid equations are added
-                    calcdisplay.innerText = eval(calcdisplay.innerText);
+                    calcDisplay.innerText = eval(calcDisplay.innerText);
                 } catch 
 				{
-                    calcdisplay.innerText = "Invalid Input!"
+                    calcDisplay.innerText = "Invalid Input!"
 					
                 }
                 break;
-			//if user clicks "C" button, clear the display. This is done by swapping the
+			//if user clicks "CLEAR" button or "_" button, clear the display. This is done by swapping the
 			//previous input to an empty string to signify that the input was removed.
 			case 'CLEAR':
-				calcdisplay.innerText = '';
+				calcDisplay.innerText = '';
+				break;
+			case '_':
+				calcDisplay.innerText = '';
 				break;
 				//lastly, the display text correlates directly with the button input
 				//this means that buttons clicked are added to the display
                 default:
-                    calcdisplay.innerText = calcdisplay.innerText + buttonClick.target.innerText;
+                    calcDisplay.innerText = calcDisplay.innerText + buttonClick.target.innerText;
         }
     });
 });
