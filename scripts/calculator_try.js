@@ -20,8 +20,8 @@ calcButtons.map( button =>
                     calcdisplay.innerText = eval(calcdisplay.innerText);
                 } catch 
 				{
-                    
-					alert("Click the CLEAR button to continue.");
+                    calcdisplay.innerText = "Invalid Input!"
+					
                 }
                 break;
 			//if user clicks "C" button, clear the display. This is done by swapping the
