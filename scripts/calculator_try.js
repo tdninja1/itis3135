@@ -29,10 +29,6 @@ calcButtons.map( button =>
 			case 'CLEAR':
 				calcdisplay.innerText = '';
 				break;
-			//wanted to make the calculator use all of the button space. This button simply clears text input too.
-			case '_':
-				calcdisplay.innerText = '';
-				break;
 				//lastly, the display text correlates directly with the button input
 				//this means that buttons clicked are added to the display
                 default:
