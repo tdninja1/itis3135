@@ -51,12 +51,14 @@ h3
 	color: cyan;
 	font-size: 100%;
 	font-family: Georgia, serif, "Futura";
+	line-height: 0px;
 }
 
 .enterEmail { 
 	color: pink;
 	font-size: 100%;
 	font-family: Georgia, serif, "Futura";
+	line-height: 0px;
 }
 
 a
