@@ -56,7 +56,7 @@ section
 {
     color: rgb(234, 193, 253);
     background-color: rgb(9, 102, 145);
-    font-stretch: wider;
+    font-stretch: normal;
 }
 
 .button:hover
