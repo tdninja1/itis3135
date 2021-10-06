@@ -1,6 +1,10 @@
 
 /* This is from - coolors.co45
 https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
+
+margin-top: 10vh auto 0 auto;
+    margin-bottom: 10vh auto 0 auto;
+    
 */
 
 section
@@ -15,8 +19,6 @@ section
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vh auto 0 auto;
-    margin-bottom: 10vh auto 0 auto;
     border-style:double;
 }
  
@@ -93,6 +95,7 @@ h3
 {
 	font-size: 200%;
 	line-height: 0px;
+    
 }
 
 table 
