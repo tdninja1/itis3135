@@ -78,13 +78,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: 6CC551;
+	color: #afff97;
 	font-weight: bold;
 }
 
 h1, h2, h3, h4
 {
-	color: 52AD9C;
+	color: #afff97;
 	font-family: Cambria, Cochin, Georgia, serif, "Futura";
 	text-align: center;
 }
