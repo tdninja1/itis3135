@@ -2,8 +2,7 @@
 /* This is from - coolors.co45
 https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
 
-margin-top: 10vh auto 0 auto;
-    margin-bottom: 10vh auto 0 auto;
+
     
 */
 
@@ -66,11 +65,40 @@ margin-top: 10vh auto 0 auto;
     transition: 0.25s  ease-in-out;
 }
 
+.buttonSubmit 
+{
+	background-color: purple;
+	color: cyan;
+}
+
+.enterName 
+{
+	color: cyan;
+	font-size: 100%;
+	font-family: Georgia, serif, "Futura";
+	line-height: 0px;
+}
+
+.enterPhoneNumber 
+{ 
+	color: cyan;
+	font-size: 100%;
+	font-family: Georgia, serif, "Futura";
+	line-height: 0px;
+}
+
+.enterEmail 
+{ 
+	color: pink;
+	font-size: 100%;
+	font-family: Georgia, serif, "Futura";
+	line-height: 0px;
+}
 
 
 body
 {
-	font-family: tahoma;
+	font-family: Cambria, Cochin, Georgia, serif, "Futura";
 	color: #9FFCDF ;
 	background-color: #447604;
 	margin-left: 75px;

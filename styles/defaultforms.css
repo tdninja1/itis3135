@@ -7,7 +7,7 @@ https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
 
 body
 {
-	font-family: tahoma;
+	font-family: Cambria, Cochin, Georgia, serif, "Futura";
 	color: #9FFCDF ;
 	background-color: #447604;
 	margin-left: 75px;
@@ -35,26 +35,30 @@ h3
 	line-height: 0px;
 }
 
-.buttonSubmit {
+.buttonSubmit 
+{
 	background-color: purple;
 	color: cyan;
 }
 
-.enterName {
+.enterName 
+{
 	color: cyan;
 	font-size: 100%;
 	font-family: Georgia, serif, "Futura";
 	line-height: 0px;
 }
 
-.enterPhoneNumber { 
+.enterPhoneNumber 
+{ 
 	color: cyan;
 	font-size: 100%;
 	font-family: Georgia, serif, "Futura";
 	line-height: 0px;
 }
 
-.enterEmail { 
+.enterEmail 
+{ 
 	color: pink;
 	font-size: 100%;
 	font-family: Georgia, serif, "Futura";

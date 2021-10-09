@@ -7,7 +7,7 @@ https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
 
 body
 {
-	font-family: tahoma;
+	font-family: Cambria, Cochin, Georgia, serif, "Futura";
 	color: #9FFCDF ;
 	background-color: #447604;
 	margin-left: 75px;
@@ -35,7 +35,8 @@ h3
 	line-height: 0px;
 }
 
-table {
+table 
+{
 	border-collapse: collapse;
 	width: 100%;
 }
