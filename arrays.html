@@ -48,12 +48,13 @@
             <table id="results_table"></table>
         </div>
 
-        <div id="addSalary" autofocus>
+        <div id="addSalary">
             <h2>Add Salary</h2>
             <div class="container">
                 <p>Select Person:</p>
                 <select onchange="val()" id="name" autofocus required>
-                    <option value="Johnathan Perry">Johnathan Perry</option>
+                        <option value="" select disabled> -- Select Names --</option>
+                            <option value="Johnathan Perry">Johnathan Perry</option>
                             <option value="Christian Kelly">Christian Kell</option>
                             <option value="Casey Owens">Casey Owens</option>
                             <option value="Talley Rufus">Talley Rufus</option>
@@ -64,9 +65,9 @@
             </div>
             <!-- Number / Salary Input Field -->
             <label>
-                <br>Enter Salary: <input type="number" id="salary" autofocus required></input></br>
+                <br>Enter Salary: <input type="number" id="salary" required></input>
             </label>
-		    <button onclick="addSalary()" onclick="focus">Add Salary</button>
+		    <button onclick="addSalary()">Add Salary</button>
 
         </div>
 		<script src="scripts/arrays.js"></script>
