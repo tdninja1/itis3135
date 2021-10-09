@@ -56,7 +56,8 @@ function getFocus()
     document.getElementById("name").focus();
 }
 
-function addSalary(){
+function addSalary()
+{
     //add a person and salary to the array using 
     //name to add to the correct users salary
     let personSalary = document.getElementById("salary").value;
