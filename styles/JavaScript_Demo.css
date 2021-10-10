@@ -1,24 +1,28 @@
 /* Cascading Style Sheet */
         
-body {
+body 
+{
     background-color:darkblue;
 	text-align: center;
 }
         
-h1 {
+h1 
+{
     color: white;
     font-family:"Garamond";
     font-weight:bolder;
     font-size:2.5em;    
 }
 
-p {
+p 
+{
     font-family:"Arial";
     margin:10px;
     padding-left:5px;
 }
         
-main {
+main 
+{
 	background-color: deepskyblue;
 	margin-right: 30px;
 	margin-left: 30px;
@@ -27,7 +31,8 @@ main {
 }
         
  
- #foot{
+ #foot
+ {
 	background-color: red;
  }
  
