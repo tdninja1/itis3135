@@ -6,6 +6,11 @@ https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
     
 */
 
+.data
+{
+	text-align: left;
+}
+
 .section
 {
     padding-top: 8vh;
@@ -151,7 +156,7 @@ a
 
 a:hover
 {
-	text-decoration: overline underline;
+	text-decoration: underline;
 }
 
 figure
