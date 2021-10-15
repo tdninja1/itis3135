@@ -37,9 +37,10 @@ window.onload = function() {
 //itemDetails for this product.
 function onClickPicture() 
 {
+    //need to set selectedImage equal to the id of the selectedImage
     var selectedImage = this.id;
-    console.log(selectedImage);
 
+    //loop through menuItems length and increment
     for (var i = 0; i < menuItems.length; i++) 
     {
         var itemCost; //holds menuPrices[i] element
