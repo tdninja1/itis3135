@@ -76,6 +76,13 @@ abbr {
 
 }
 
+/* button */
+.buttonSubmit
+{
+  background-color: #4c0053;
+	color: #93f2ff;
+}
+
 /* whitespace */
 .whitespace {
   padding: 10px;
