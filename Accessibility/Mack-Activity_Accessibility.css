@@ -21,6 +21,12 @@ h1 {
 
 }
 
+h3
+{
+  color:rgb(126, 255, 227);
+  
+}
+
 /* font size */
 body {
   font-size: 16px;
@@ -45,7 +51,7 @@ th {
   text-align: left;
   background-color:#262626;
  
-  color:black;
+  color:rgba(250, 255, 179, 0.801);
 }
 
 table.center {
@@ -81,6 +87,12 @@ abbr {
 {
   background-color: #4c0053;
 	color: #93f2ff;
+}
+
+/*form text*/
+.txt
+{
+  color:powderblue;
 }
 
 /* whitespace */
