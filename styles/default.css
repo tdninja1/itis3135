@@ -1,10 +1,35 @@
 
 /* This is from - coolors.co45
 https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
-
-
     
 */
+
+#container
+{
+	width: 300px;
+	border: 15px solid black;
+	padding: 100px;
+	padding-left: 20vh;
+	padding-right: 20vh;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+	margin: auto;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	
+}
+
+#container img
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#container #wrapper 
+{
+	border-bottom: 2px solid black;
+}
 
 .data
 {
@@ -70,7 +95,7 @@ https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f
     transition: 0.25s  ease-in-out;
 }
 
-.buttonSubmit 
+.buttonSubmit, .buttonClear, .buttonContact
 {
 	background-color: purple;
 	color: cyan;
