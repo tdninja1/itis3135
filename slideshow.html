@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob Mack, ITIS 3135-051, Arrays</title>
-    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <title>Jacob Mack, ITIS 3135-051, Slideshow</title>
+    <link rel="stylesheet" href="styles/default.css">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="scripts/slideshow_test.js"></script>
 </head>
 	<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
 	<header>
@@ -24,7 +28,7 @@
 		 ||
 		<a href="http://webpages.uncc.edu/jmack23/itis3135/first-scripts.html" target="_blank">First Scripts</a>
 		 ||
-		<a href="http://webpages.uncc.edu/jmack23/itis3135/polygon.html" target="_blank">Polygon Sides</a>
+		<a href="http://webpages.uncc.edu/jmack23/itis3135/JavaScript_Demo.html" target="_blank">Polygon Sides</a>
 		 ||
 		<a href="http://webpages.uncc.edu/jmack23/itis3135/calculator_try.html" target="_blank">Calculator Try</a>
          || 
@@ -35,47 +39,58 @@
         <a href="http://webpages.uncc.edu/jmack23/itis3135/slideshow.html" target="_blank">Slideshow</a>
     </nav>
 	<main>
-	
-		<h2>Arrays</h2>
+
+		<!-- Resources Used:
+		How to Center bxSlider box container:	
+		https://stackoverflow.com/questions/7840151/centering-bxslider-jquery-plugin
+
+		bxSlider Plugin:
+		https://bxslider.com/options/
+
+		YouTube tutorial to understand how to use:
+		https://www.youtube.com/watch?v=rVTP-JMB8OE&t=32s
+			-->
+
+        <h2>Slideshow</h2>
 		<h3>Jacob's Wonderful Web Development Work</h3>
-        <!-- Need displayResults, displaySalary, addSalary-->
-		
-        <div id=displayResults>
-            <h2>Display Results</h2>
-            <button onclick="displayResults()">Display Result</button>
-            <div id="results"></div>
-        </div>
 
-        <div id="displaySalary">
-            <h2>Display Salary</h2>
-            <button onclick="displaySalary()">Display Salary</button>
-            <table id="results_table"></table>
-        </div>
+        <!-- Need Container for images -->
+        <div class="slider">
+			<!-- Image Start -->
+			
+				<div class="slide">Slide 1.
+					<li><img src="images/img1.jpg" width="250" height="250" class="img-responsive"></li>
+			
+				</div>
 
-        <div id="addSalary">
-            <h2>Add Salary</h2>
-            <div class="container">
-                <p>Select Person:</p>
-                <select onchange="val()" id="name" autofocus required>
-                        <option value="" disabled> -- Select Names --</option>
-                            <option value="Johnathan Perry">Johnathan Perry</option>
-                            <option value="Christian Kelly">Christian Kell</option>
-                            <option value="Casey Owens">Casey Owens</option>
-                            <option value="Talley Rufus">Talley Rufus</option>
-                            <option value="Candice Sutten">Candice Sutten</option>
-                            <option value="Lacey Oates">Lacey Oates</option>
-                            <option value="Grace Howard">Grace Howard</option>
-                </select>
-            </div>
-            <!-- Number / Salary Input Field -->
-            <label>
-                <br>Enter Salary: <input type="number" id="salary" required>
-            </label>
-		    <button onclick="addSalary()">Add Salary</button>
+				<div class="slide">Slide 2
+					<li><img src="images/img2.jpg" width="250" height="250" class="img-responsive"></li>
+					
+				</div>
 
-        </div>
-		<script src="scripts/arrays.js"></script>
-		
+				<div class="slide">Slide 3
+					<li><img src="images/img3.jpg" width="250" height="250" class="img-responsive"></li>
+					
+				</div>
+			
+				<div class="slide">Slide 4
+					<li><img src="images/img4.jpg" width="250" height="250" class="img-responsive"></li>
+					
+				</div>
+			
+				<div class="slide">Slide 5
+					<li><img src="images/img5.jpg" width="250" height="250" class="img-responsive"></li>
+					
+				</div>
+			
+				<div class="slide">Slide 6
+					<li><img src="images/img6.jpg" width="250" height="250" class="img-responsive"></li>
+					
+				</div>
+			<!-- Image End -->
+		  </div>
+        
+        
 	</main>
 		<footer>
 			<nav>
