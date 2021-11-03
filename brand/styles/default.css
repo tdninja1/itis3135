@@ -1,0 +1,77 @@
+.img
+{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			
+}
+header, footer, main
+{
+				background-color: #E0E2DB;
+				font-family: tahoma;
+				margin-left: 75px;
+				margin-right: 75px;
+}
+			
+h1, h2, h3
+{
+				background-color: #E0E2DB;
+				font-family: tahoma;
+				margin-left: 75px;
+				margin-right: 75px;
+			
+}
+			
+title
+{
+				background-color: #E0E2DB;
+				font-family: tahoma;
+				margin-left: 75px;
+				margin-right: 75px;
+}
+			
+			
+body
+{
+				background-color: #E0E2DB;
+				font-family: tahoma;
+				margin-left: 75px;
+				margin-right: 75px;
+}
+			
+p 
+{
+				background-color: #E0E2DB;
+				font-family: tahoma;
+				margin-left: 75px;
+				margin-right: 75px;
+}
+			
+ul 
+{
+				
+				padding-left: 100px;
+				list-style-position: inside;
+			
+}
+			
+nav 
+{
+				text-align: center;
+}
+			
+.createdBy
+{
+				text-decoration: underline;
+}
+			
+a
+{
+				padding-left: 65px;
+				
+}
+			
+a:hover
+{
+				text-decoration: underline;
+}	
