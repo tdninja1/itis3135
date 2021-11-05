@@ -1,3 +1,11 @@
+// $(document).ready(function () {
+//     $('#myNav').load('nav.html');
+// });
+
+// w3.includeHTML();
+
+
+
 function displayContact() 
 {
     let name = document.getElementById("enterName").value;

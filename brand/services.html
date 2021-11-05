@@ -4,28 +4,15 @@
 		<title>Services - Jarring Magical Majungasaurus Corporation</title>
 		<meta charset="UTF-8">
     	
-		
 		<link href="styles/default.css" rel="stylesheet" type="text/css">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<script src="scripts/w3.js"></script>
 	</head>
 		
+	<body>
 	
-	<div id=div_Header>
-		<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed></body>
-		<!-- img source: http://palaeos.com/vertebrates/theropoda/abelisauridae.html#Majungasaurus -->
-		<h1><img class="img" src="images/majungasaurus-deviant-paleoart-wikipedia-creative-commons.PNG" width="500" height="500" alt="majungasaurus"></h1>
-	</div>
-	<p><button onclick="w3.toggleShow('#div_Header')">Click to Toggle Hide/Show Header</button></p>
-
-	<div id=div_Nav>
-		<nav>
-			<a href="http://webpages.uncc.edu/jmack23/itis3135/brand/index.html" target="_blank">Home</a>
-			<a href="http://webpages.uncc.edu/jmack23/itis3135/brand/contact.html" target="_blank">Contact</a>
-			<a href="http://webpages.uncc.edu/jmack23/itis3135/brand/services.html" target="_blank">Services</a>
-		</nav>
-	</div>
-	<p><button onclick="w3.toggleShow('#div_Nav')">Click to Toggle Hide/Show Nav</button></p>
+	<header w3-include-html="components/header.html"></header>
+	<div w3-include-html="components/nav.html"></div>
 	
 
 	<!-- https://coolors.co/191716-e6af2e-e0e2db-3d348b-beb7a4 
@@ -49,20 +36,11 @@
 				<li>Have any edible waste? Our majungasaurus can make it magically disappear too!</li>
 				<li>The Majungasaurus species has been <strong>extinct for over 66-77 million years. This is a once in a lifetime opportunity to meet and solve any problem.. <em>NOW</em>!</strong></li>
 			</ul>
-
-	
-	<div id=div_Footer>
-		<p class="createdBy"><strong>Created by Jacob Mack</strong></p>
-			<a href="https://validator.w3.org/check?uri=referer">
-				<img src="http://www.w3.org/Icons/valid-xhtml10" width="88" height="31" alt="Link to HTML validator">
-			</a>	
-			<a href="https://jigsaw.w3.org/css-validator/check/referer">
-				<img src="https://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Link to CSS validator">
-			</a>
-	</div>
-	<p><button onclick="w3.toggleShow('#div_Footer')">Click to Toggle Hide/Show Footer</button></p>
 		
 	</main>
+
+	<footer w3-include-html="components/footer.html"></footer>
+	<script>w3.includeHTML();</script>
 		
 </body>
 </html>

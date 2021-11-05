@@ -8,13 +8,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
-	<header>
-
-	
-	<!-- img source: http://palaeos.com/vertebrates/theropoda/abelisauridae.html#Majungasaurus -->
-		<h1><img class="img" src="images/majungasaurus-deviant-paleoart-wikipedia-creative-commons.PNG" width="500" height="500" alt="majungasaurus"></h1>
-	</header>
-
+	</head>
 	<!-- https://coolors.co/191716-e6af2e-e0e2db-3d348b-beb7a4 
 		Eerie Black: #191716
 		Goldenrod: #E6AF2E
@@ -23,6 +17,10 @@
 		Khaki Web: #BEB74A
 		-->
 
+		<body>
+			<header w3-include-html="components/header.html"></header>
+			<div w3-include-html="components/nav.html"></div>
+			
 	
 
 	<main>
@@ -54,14 +52,10 @@
 			
 		
 	</main>
-		<footer>
-			<p class="createdBy"><strong>Created by Jacob Mack</strong></p>
-			<a href="https://validator.w3.org/check?uri=referer">
-				<img src="http://www.w3.org/Icons/valid-xhtml10" width="88" height="31" alt="Link to HTML validator">
-			</a>	
-			<a href="https://jigsaw.w3.org/css-validator/check/referer">
-				<img src="https://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Link to CSS validator">
-			</a>
-	</footer>
+	
+	<div w3-include-html="components/footer.html"></div>
+	<script>w3.includeHTML();</script>
+
+
 </body>
 </html>
