@@ -6,13 +6,22 @@
 				margin-right: auto;
 			
 }
-header, footer, main
+header, footer
 {
 				background-color: #E0E2DB;
 				font-family: tahoma;
 				margin-left: 75px;
 				margin-right: 75px;
 				text-align: center;
+}
+
+main
+{
+	background-color: #E0E2DB;
+	font-family: tahoma;
+	margin-left: 75px;
+	margin-right: 75px;
+
 }
 			
 h1, h2, h3
