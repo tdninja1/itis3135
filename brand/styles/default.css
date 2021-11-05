@@ -1,8 +1,3 @@
-.nav
-{
-	margin: auto;
-	text-align: center;
-}
 
 .img
 {
@@ -17,6 +12,7 @@ header, footer, main
 				font-family: tahoma;
 				margin-left: 75px;
 				margin-right: 75px;
+				text-align: center;
 }
 			
 h1, h2, h3
