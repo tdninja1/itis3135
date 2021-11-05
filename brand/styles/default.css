@@ -6,6 +6,21 @@
 				margin-right: auto;
 			
 }
+
+.myHeader, .myFooter
+{
+	background-color: #E0E2DB;
+				font-family: tahoma;
+				margin-left: 75px;
+				margin-right: 75px;
+				text-align: center;
+
+}
+
+.myNav
+{
+	text-align: center;
+}
 header, footer
 {
 				background-color: #E0E2DB;
