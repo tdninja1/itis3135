@@ -1,3 +1,8 @@
+.btnReferHTML, .btnReferCSS
+{
+	background-color: purple;
+	color: cyan;
+}
 
 .img
 {
