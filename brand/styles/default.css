@@ -31,8 +31,8 @@
 .myHeader, .myFooter
 {
 	display: block;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 10px;
+	margin-right: 10px;
 	text-align: center;
 
 }
