@@ -7,6 +7,7 @@
 		<link href="styles/default.css" rel="stylesheet" type="text/css">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="scripts/w3.js"></script>
+		<script src="scripts/HTMLInclude.js"></script>
 	</head>
 		
 	<body>
@@ -15,8 +16,8 @@
 	<nav w3-include-html="components/nav.html"></nav>
 	 -->
 
-	 <header class="myHeader" w3-include-html="components/header.html"></header>
-			<nav class="myNav" w3-include-html="components/nav.html"></nav>
+	 <div class="myHeader" data-include="components/header.html"></div>
+	 <div class="myNav" data-include="components/nav.html"></div>
 
 	<!-- https://coolors.co/191716-e6af2e-e0e2db-3d348b-beb7a4 
 		Eerie Black: #191716
@@ -42,8 +43,8 @@
 		
 	</main>
 
-	<footer class="myFooter" w3-include-html="components/footer.html"></footer>
-	<script>w3.includeHTML();</script>
+	<div class="myFooter" data-include="components/footer.html"></div>
+	<script>HTMLInclude();</script>
 		
 </body>
 </html>
