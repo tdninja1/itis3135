@@ -5,6 +5,11 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Angie's Favorite Delights Products</title>
     	<link href="styles/angiesdelights.css" rel="stylesheet" type="text/css">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		
 		<script src="scripts/angiesdelights.js"></script>
 	</head>
 <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed>
@@ -25,7 +30,31 @@
 	</nav>
 	<main>
 		<h2>Angie's Favorites</h2>
-		<img name="slide" class="products" width="250" height="250" alt="Favorite Products Slideshow">
+		<!-- <img name="slide" class="products" width="250" height="250" alt="Favorite Products Slideshow"> -->
+
+		<!-- SlideShow Start -->
+		<div class="slider">
+			<!-- Image Start -->
+				<div class="slide">Delightful Cocoa Bombs
+						<img src="images/1.jpg" width="250" height="250" alt="Delightful Cocoa Bombs">
+				</div>
+
+				<div class="slide">Gingerbread Man Cake
+						<img src="images/3.jpg" width="250" height="250" alt="Gingerbread Man Cake">
+				</div>
+			
+				<div class="slide">Pink Velvet Flamingo Cake
+						<img src="images/5.jpg" width="250" height="250" alt="Pink Velvet Flamingo Cake">
+				</div>
+			
+				<div class="slide">Easter Bunny Cake
+						<img src="images/7.jpg" width="250" height="250" alt="Easter Bunny Cake">		
+				</div>
+			<!-- Image End -->
+		  </div>
+
+		<!-- SlideShow End -->
+
 
 		<p id="randomProduct"></p>
 		<button onclick="randomProduct()">Random Product Button</button>

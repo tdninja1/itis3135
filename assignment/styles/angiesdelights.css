@@ -8,10 +8,34 @@ purple: #d0c1d6
 
 */
 
+div.slider
+{
+	position: relative;
+	text-align: center;
+	color: purple;
+	text-emphasis-color: black;
+	
+}
+
 .slider
 {
-	margin: 50px auto;
+	margin: 2px auto;
 	width: 50%;
+}
+
+.bx-wrapper, .bx-window {
+    margin:0 auto; width:250px !important;
+	padding: auto;
+}
+
+.pager{
+	
+    width:250px !important; 
+}
+
+#slide_desc
+{
+	text-align: center;
 }
 
 .img-box img
@@ -58,12 +82,12 @@ purple: #d0c1d6
 	text-align: center;
 }
 
+
 .product-desc 
 {
 	text-align: center;
 	padding-bottom: 5vh;
 }
-
 
 body
 {

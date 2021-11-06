@@ -4,6 +4,21 @@
 2.) Image Slideshow
 3.) Random Item Picker from 10 listed items
 */
+//Image Slideshow works with bxSlider plugin
+$(document).ready(function(){
+    $('.slider').bxSlider( {
+        preloadImages :         'all', //preload images
+        randomStart :           true, //random starting slide
+        auto :                  true, //infinite transitions
+        setInterval :           2000, // 2 seconds
+        mode:                   'horizontal', //slide horizontally
+        touchEnabled :          false,
+        autoHover :             true, //if user hovers over slide, pause
+        wrapperClass :          'bx-wrapper',
+        slideWidth :            250
+
+    });
+  });
 
 //declare randomProduct array
 function randomProduct() 
@@ -18,36 +33,6 @@ function randomProduct()
     //and set the innerHTML to the var created
     document.getElementById("randomProduct").innerHTML = randomProductItem;
 }
-
-//variables needed
-var currentImage = 0, images = [], time = 1200; 
-
-function changeFavoriteImg() 
-{
-    
-    //add images to empty array
-    images[0] = "images/1.jpg", images[1] = "images/3.jpg"
-    images[2] = "images/5.jpg", images[3] = "images/7.jpg";
-    //transition to next current available image
-    document.slide.src = images[currentImage];
-
-    //loop through images length and progress. If images length is less than i,
-    //incremenet
-    if (currentImage < images.length - 1 ) 
-    {
-        currentImage++;
-    }
-    //otherwise set current image to 0
-    else 
-    {
-       currentImage = 0;
-    }
-
-   setTimeout("changeFavoriteImg()", time);
-}
-//as soon as the page starts, make sure changeImg function runs
-//this can be done with the "window.onload" function. Set that equal to change img.
-    window.onload = changeFavoriteImg;
 
 //useful to load images before site is seen
 function preloader() {
