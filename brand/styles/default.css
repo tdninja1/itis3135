@@ -10,9 +10,9 @@
 
 .img
 {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 			
 }
 
@@ -28,16 +28,17 @@
 .myHeader, .myFooter
 {
 	display: block;
-				margin-left: auto;
-				margin-right: auto;
+	margin-left: 75px;
+	margin-right: 75px;
+	text-align: center;
 
 }
 
 .myNav
 {
 	display: block;
-				margin-left: auto;
-				margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div
@@ -51,11 +52,11 @@ div
 
 header, footer
 {
-				background-color: #E0E2DB;
-				font-family: tahoma;
-				margin-left: 75px;
-				margin-right: 75px;
-				text-align: center;
+	background-color: #E0E2DB;
+	font-family: tahoma;
+ 	margin-left: 75px;
+	margin-right: 75px;
+	text-align: center;
 }
 
 main
