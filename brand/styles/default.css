@@ -1,8 +1,11 @@
 .btnReferHTML, .btnReferCSS
 {
+	border: 2px solid black;
 	text-align: center;
+	padding: 10px 20px;
 	background-color: purple;
 	color: cyan;
+	display: inline-block;
 }
 
 .img
