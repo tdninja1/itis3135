@@ -18,17 +18,17 @@
 
 .myHeader, .myFooter
 {
-	background-color: #E0E2DB;
-	font-family: tahoma;
-	margin-left: 75px;
-	margin-right: 75px;
-	text-align: center;
+	display: block;
+				margin-left: auto;
+				margin-right: auto;
 
 }
 
 .myNav
 {
-	text-align: center;
+	display: block;
+				margin-left: auto;
+				margin-right: auto;
 }
 
 div
