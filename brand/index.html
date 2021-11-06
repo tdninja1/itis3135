@@ -9,6 +9,7 @@
 		<script src="scripts/w3.js"></script>
 		
 		<script src="scripts/default.js"></script>
+		<script src="scripts/HTMLInclude.js"></script>
 		
 		
 	</head>
@@ -17,15 +18,12 @@
 		<body>
 			<!-- <header w3-include-html="components/header.html"></header>
 			<nav w3-include-html="components/nav.html"></nav> -->
-			
+			<!-- <header class="myHeader" w3-include-html="components/header.html"></header>
+			<nav class="myNav" w3-include-html="components/nav.html"></nav> -->
 
-			<header>
-				<div class="myHeader" w3-include-html="components/header.html"></div>
-			</header>
-			<nav>
-				<div class="myNav" w3-include-html="components/nav.html"></div>
-			</nav>
-			
+			<include class="myHeader" src="components/header.html"></include>
+			<include class="myNav" src="components/nav.html"></include>
+
 		
 
 	<main>
@@ -66,7 +64,8 @@
 	</main>
 	
 	<footer class="myFooter" w3-include-html="components/footer.html"></footer>
-	<script>w3.includeHTML();</script>
+	<!-- <script>w3.includeHTML();</script> -->
+	<script>HTMLInclude();</script>
 
 
 </body>
