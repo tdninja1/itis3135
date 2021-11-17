@@ -20,14 +20,20 @@ $(document).ready(function() {
             //               xmlDoc.find("title").text() + "<br>" +
             //               xmlDoc.find("bio").text() + "<br>");
             // });
-            //JSON UNDEr
+           
+            //JSON UNDER
             $.each(data, function() {
                 $.each(this, function(key, value) {
                     $('#team').append(
-                        value.name + '<br>' +
+                        '<h3>' + value.name + '</h3>' +
                         value.title + '<br>' + 
                         value.bio + '<br>' +
                     '<br>');
+                    $("#name").css("color:'blue'");
+                    
+                  
+                   
+
 
                 });
             });
